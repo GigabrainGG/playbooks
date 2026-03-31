@@ -12,6 +12,7 @@ Ready-to-go agent configurations for [GigaBrain](https://gigabrain.gg) SuperAgen
 
 Each playbook is a folder with:
 
+- `playbook.yaml` — Manifest with metadata and skill dependencies
 - `README.md` — What the agent does, example output, prerequisites
 - `soul.md` — Agent identity and personality
 - `bootstrap.md` — Interactive onboarding conversation the agent runs on first boot
@@ -19,6 +20,26 @@ Each playbook is a folder with:
 Some playbooks also include:
 
 - `scripts/` — Playbook-specific scripts for complex logic
+
+### playbook.yaml
+
+```yaml
+name: degen-claw-competitor
+description: Trade perps in the Virtuals Degen Claw competition via ACP
+category: virtuals
+icon: "🎮"
+author: gigabrain
+version: "1.0"
+
+skills:
+  - gigabrain-intel                        # official (GigabrainGG/skills)
+  - Virtual-Protocol/openclaw-acp          # third-party GitHub repo
+  - Virtual-Protocol/dgclaw-skill          # third-party GitHub repo
+```
+
+Skills are resolved at boot:
+- **Plain name** (e.g., `gigabrain-intel`) — loaded from [`GigabrainGG/skills`](https://github.com/GigabrainGG/skills)
+- **`owner/repo`** (e.g., `Virtual-Protocol/dgclaw-skill`) — cloned from GitHub
 
 ### Launch Modes
 
@@ -52,5 +73,5 @@ Fork an existing playbook to customize it. Version-pin with a branch, tag, or co
 ## Contributing
 
 1. Create a folder with your playbook name
-2. Add `README.md`, `soul.md`, and `bootstrap.md`
+2. Add `playbook.yaml`, `README.md`, `soul.md`, and `bootstrap.md`
 3. Open a PR

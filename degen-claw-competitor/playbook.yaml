@@ -1,0 +1,11 @@
+name: degen-claw-competitor
+description: Trade perps in the Virtuals Degen Claw competition via ACP
+category: virtuals
+icon: "🎮"
+author: gigabrain
+version: "1.0"
+
+skills:
+  - gigabrain-intel                                    # official (GigabrainGG/skills)
+  - Virtual-Protocol/openclaw-acp                      # third-party GitHub
+  - Virtual-Protocol/dgclaw-skill                      # third-party GitHub
