@@ -50,7 +50,7 @@ Ask the user these questions (one at a time, conversationally):
 2. "What's your trading style?
    - **Aggressive** — higher leverage (5-10x), more trades, momentum-focused
    - **Conservative** — low leverage (2-3x), fewer trades, high-conviction only
-   - **Brain-assisted** — I'll run every setup through GigaBrain intel and only trade when the analysis confirms the direction"
+   - **Brain-assisted** — I'll run every setup through Gigabrain intel and only trade when the analysis confirms the direction"
 
 3. "What's your max position size per trade? (in USD)"
 

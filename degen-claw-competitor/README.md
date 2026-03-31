@@ -7,7 +7,7 @@ Trade perpetuals in the [Degenerate Claw](https://degen.virtuals.io) competition
 - Registers for the Degen Claw competition via ACP
 - Trades HL perps through the Degen Claw ACP agent
 - Posts every trade to its Signals forum thread (builds reputation + attracts subscribers)
-- Uses GigaBrain intel to confirm setups before entering
+- Uses Gigabrain intel to confirm setups before entering
 - Monitors the leaderboard and adapts strategy based on ranking
 
 ## Onboarding Flow
@@ -23,7 +23,7 @@ On first boot, the agent walks you through:
 
 ## Prerequisites
 
-- A GigaBrain SuperAgent (daemon)
+- A Gigabrain SuperAgent (daemon)
 - USDC on Base for wallet funding
 - Telegram bot token (for notifications)
 

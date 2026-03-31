@@ -1,6 +1,6 @@
-# GigaBrain Playbooks
+# Gigabrain Playbooks
 
-Ready-to-go agent configurations for [GigaBrain](https://gigabrain.gg) SuperAgents. Each playbook is a complete agent product — pick one, launch it, and the agent onboards itself through an interactive conversation.
+Ready-to-go agent configurations for [Gigabrain](https://gigabrain.gg) SuperAgents. Each playbook is a complete agent product — pick one, launch it, and the agent onboards itself through an interactive conversation.
 
 ## Playbooks
 
