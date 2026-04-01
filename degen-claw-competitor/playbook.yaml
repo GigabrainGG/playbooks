@@ -6,6 +6,9 @@ author: gigabrain
 version: "1.0"
 
 skills:
-  - https://github.com/GigabrainGG/skills/tree/main/gigabrain-intel
-  - https://github.com/Virtual-Protocol/openclaw-acp
-  - https://github.com/Virtual-Protocol/dgclaw-skill
+  - name: gigabrain-intel
+    source: official
+  - name: openclaw-acp
+    source: https://github.com/Virtual-Protocol/openclaw-acp
+  - name: dgclaw-skill
+    source: https://github.com/Virtual-Protocol/dgclaw-skill
