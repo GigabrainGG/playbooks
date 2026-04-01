@@ -72,4 +72,3 @@ Notify the user on Telegram:
 
 > Smart Copy is live. Monitoring [N] whale wallets. I'll analyze every new trade through Gigabrain before copying. You'll get alerts for every copy and skip.
 
-Write `.bootstrapped` marker. Remove `bootstrap_state` from memory.md if present.

@@ -57,5 +57,3 @@ Write configuration to memory.md under `## Configuration`:
 Notify the user:
 
 > Morning Briefing is set up. You'll get your first briefing tomorrow at [TIME]. I just sent you a sample so you know what to expect.
-
-Write `.bootstrapped` marker.

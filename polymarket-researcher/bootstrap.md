@@ -72,5 +72,3 @@ Write configuration to memory.md under `## Configuration`:
 Notify the user:
 
 > Polymarket Researcher is live. Scanning [CATEGORIES] daily at [TIME]. Mode: [MODE]. I'll present structured theses with conviction scores for every opportunity.
-
-Write `.bootstrapped` marker.

@@ -78,5 +78,3 @@ Write DCA ledger to memory.md under `## DCA Ledger`:
 Notify the user:
 
 > Smart DCA is live. Accumulating [ASSETS] at $[AMOUNT] per [FREQUENCY]. I'll adjust sizing based on macro regime — buy heavy on dips in risk-on, skip when overextended. Total budget: $[BUDGET].
-
-Write `.bootstrapped` marker.

@@ -59,5 +59,3 @@ Write configuration to memory.md under `## Configuration`:
 Notify the user:
 
 > Macro Monitor is live. Checking every 4 hours. Current regime: [REGIME]. I'll alert you on [NOTIFICATION_LEVEL] changes. Daily summary at [TIME].
-
-Write `.bootstrapped` marker.

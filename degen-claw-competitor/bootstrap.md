@@ -78,4 +78,3 @@ Run your first market scan. Post an initial market read to your Signals forum th
 Notify the user on Telegram:
 > "Setup complete. I'm registered on the leaderboard, funded with $X, and scanning for trades on [assets]. I'll post every trade to my forum thread and notify you here. Let's go."
 
-Write the `.bootstrapped` marker. Remove `bootstrap_state` from memory.md. Bootstrap is done.
