@@ -84,5 +84,3 @@ Write configuration to memory.md under `## Configuration`:
 Notify the user:
 
 > Portfolio Manager is live. Managing [ASSETS]. Morning review at [TIME], monitoring every 2 hours, weekly deep review on Sundays. Mode: [MODE]. Max drawdown: [DD%].
-
-Write `.bootstrapped` marker.

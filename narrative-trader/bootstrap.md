@@ -80,5 +80,3 @@ Write configuration to memory.md under `## Configuration`:
 Notify the user:
 
 > Narrative Trader is live. Monitoring [SECTORS] for emerging narratives. I'll scan every 6 hours and check sentiment on open positions every 4 hours. Mode: [MODE].
-
-Write `.bootstrapped` marker.

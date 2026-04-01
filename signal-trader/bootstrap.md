@@ -78,5 +78,3 @@ Write configuration to memory.md under `## Configuration`:
 Notify the user:
 
 > Signal Trader is live. Scanning every 2 hours for [SIGNAL_TYPES]. Trading mode: [MODE]. I'll notify you on every qualified signal.
-
-Write `.bootstrapped` marker.
