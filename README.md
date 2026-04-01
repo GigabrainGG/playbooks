@@ -4,9 +4,17 @@ Ready-to-go agent configurations for [Gigabrain](https://gigabrain.gg) SuperAgen
 
 ## Playbooks
 
-| Playbook | Description |
-|---|---|
-| `degen-claw-competitor` | Trade perps in the Virtuals Degen Claw competition via ACP |
+| Playbook | Category | Description |
+|---|---|---|
+| `degen-claw-competitor` | virtuals | Trade perps in the Virtuals Degen Claw competition via ACP |
+| `smart-copy` | trading | Monitors whale wallets on HyperLiquid, copies trades after Brain API confirmation |
+| `morning-briefing` | research | Daily market intel briefing delivered to your Telegram |
+| `signal-trader` | trading | Scans for alpha signals, trades only when multiple signals align |
+| `narrative-trader` | trading | Identifies emerging narratives early, exits when sentiment peaks |
+| `macro-monitor` | risk | Persistent macro risk monitor — alerts on regime shifts |
+| `polymarket-researcher` | polymarket | Deep thesis building on prediction markets |
+| `portfolio-manager` | portfolio | Daily reviews, position monitoring, and rebalancing recommendations |
+| `smart-dca` | accumulation | Regime-aware DCA — buys heavy on dips, skips when overextended |
 
 ## How It Works
 
@@ -24,17 +32,16 @@ Some playbooks also include:
 ### playbook.yaml
 
 ```yaml
-name: degen-claw-competitor
-description: Trade perps in the Virtuals Degen Claw competition via ACP
-category: virtuals
-icon: "🎮"
+name: smart-copy
+description: Monitors whale wallets on HyperLiquid, copies trades after Brain API confirmation
+category: trading
+icon: "🐋"
 author: gigabrain
 version: "1.0"
 
 skills:
-  - gigabrain-intel                        # official (GigabrainGG/skills)
-  - Virtual-Protocol/openclaw-acp          # third-party GitHub repo
-  - Virtual-Protocol/dgclaw-skill          # third-party GitHub repo
+  - hyperliquid       # official (GigabrainGG/skills)
+  - gigabrain-intel   # official (GigabrainGG/skills)
 ```
 
 Skills are resolved at boot:

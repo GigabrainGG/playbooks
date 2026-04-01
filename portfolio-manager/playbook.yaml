@@ -1,0 +1,11 @@
+name: portfolio-manager
+description: Active portfolio management with daily reviews, position monitoring, and rebalancing recommendations.
+category: portfolio
+icon: "📊"
+author: gigabrain
+version: "1.0"
+
+skills:
+  - hyperliquid
+  - portfolio-tracker
+  - gigabrain-intel
