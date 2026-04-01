@@ -1,0 +1,10 @@
+name: smart-copy
+description: Monitors whale wallets on HyperLiquid, runs Brain API analysis before copying, skips when conditions don't align.
+category: trading
+icon: "🐋"
+author: gigabrain
+version: "1.0"
+
+skills:
+  - hyperliquid
+  - gigabrain-intel

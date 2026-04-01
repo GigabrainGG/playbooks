@@ -1,0 +1,10 @@
+name: signal-trader
+description: Scans for high-impact alpha signals, cross-references with Brain API analysis, trades only when multiple signals align.
+category: trading
+icon: "⚡"
+author: gigabrain
+version: "1.0"
+
+skills:
+  - hyperliquid
+  - gigabrain-intel

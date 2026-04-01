@@ -1,0 +1,9 @@
+name: morning-briefing
+description: Daily market intel briefing delivered to your Telegram. No trades — pure research and analysis.
+category: research
+icon: "📰"
+author: gigabrain
+version: "1.0"
+
+skills:
+  - gigabrain-intel
