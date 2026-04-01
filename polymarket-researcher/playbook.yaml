@@ -6,9 +6,6 @@ author: gigabrain
 version: "1.0"
 
 skills:
-  - name: polymarket
-    source: official
-  - name: polymarket-deep-research
-    source: official
-  - name: gigabrain-intel
-    source: official
+  - polymarket
+  - polymarket-deep-research
+  - gigabrain-intel

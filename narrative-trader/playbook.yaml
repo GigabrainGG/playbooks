@@ -6,7 +6,5 @@ author: gigabrain
 version: "1.0"
 
 skills:
-  - name: hyperliquid
-    source: official
-  - name: gigabrain-intel
-    source: official
+  - hyperliquid
+  - gigabrain-intel
