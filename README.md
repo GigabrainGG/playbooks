@@ -32,21 +32,25 @@ Some playbooks also include:
 ### playbook.yaml
 
 ```yaml
-name: smart-copy
-description: Monitors whale wallets on HyperLiquid, copies trades after Brain API confirmation
-category: trading
-icon: "🐋"
+name: degen-claw-competitor
+description: Trade perps in the Virtuals Degen Claw competition via ACP
+category: virtuals
+icon: "🎮"
 author: gigabrain
 version: "1.0"
 
 skills:
-  - hyperliquid       # official (GigabrainGG/skills)
-  - gigabrain-intel   # official (GigabrainGG/skills)
+  - name: gigabrain-intel
+    source: official
+  - name: openclaw-acp
+    source: https://github.com/Virtual-Protocol/openclaw-acp
+  - name: dgclaw-skill
+    source: https://github.com/Virtual-Protocol/dgclaw-skill
 ```
 
-Skills are resolved at boot:
-- **Plain name** (e.g., `gigabrain-intel`) — loaded from [`GigabrainGG/skills`](https://github.com/GigabrainGG/skills)
-- **`owner/repo`** (e.g., `Virtual-Protocol/dgclaw-skill`) — cloned from GitHub
+Each skill has a `name` and `source`:
+- **`official`** — pre-installed from [`GigabrainGG/skills`](https://github.com/GigabrainGG/skills)
+- **URL** (e.g., `https://github.com/Virtual-Protocol/dgclaw-skill`) — cloned from GitHub on first boot
 
 ### Launch Modes
 

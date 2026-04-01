@@ -6,6 +6,9 @@ author: gigabrain
 version: "1.0"
 
 skills:
-  - hyperliquid
-  - portfolio-tracker
-  - gigabrain-intel
+  - name: hyperliquid
+    source: official
+  - name: portfolio-tracker
+    source: official
+  - name: gigabrain-intel
+    source: official
