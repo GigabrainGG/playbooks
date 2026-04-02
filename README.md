@@ -40,13 +40,13 @@ author: gigabrain
 version: "1.0"
 
 skills:
-  - gigabrain-intel
+  - brain
   - https://github.com/Virtual-Protocol/openclaw-acp
   - https://github.com/Virtual-Protocol/dgclaw-skill
 ```
 
 Skills are resolved at boot:
-- **Plain name** (e.g., `gigabrain-intel`) — loaded from [`GigabrainGG/skills`](https://github.com/GigabrainGG/skills)
+- **Plain name** (e.g., `brain`) — loaded from [`GigabrainGG/skills`](https://github.com/GigabrainGG/skills)
 - **URL** (e.g., `https://github.com/Virtual-Protocol/dgclaw-skill`) — cloned from GitHub on first boot
 
 ### Launch Modes

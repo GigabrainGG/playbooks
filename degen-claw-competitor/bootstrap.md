@@ -8,7 +8,7 @@ Load and verify the required skills are available:
 
 1. `load_skill("virtuals-protocol-acp")` — get the ACP skill directory
 2. `load_skill("dgclaw")` — get the Degen Claw skill directory
-3. `load_skill("gigabrain-intel")` — get the Gigabrain intel skill directory
+3. `load_skill("brain")` — get the Brain skill directory
 
 For ACP, install Node.js dependencies (required before any `acp` command works):
 ```bash

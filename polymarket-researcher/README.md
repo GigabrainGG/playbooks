@@ -29,7 +29,7 @@ Deep thesis building on prediction markets. Researches, scores, and recommends �
 
 ## Prerequisites
 
-- A Gigabrain SuperAgent (daemon)
+- A Gigabrain SuperAgent
 - USDC on Polymarket (for trading — optional for research-only mode)
 - Telegram bot token (for notifications)
 
@@ -37,4 +37,4 @@ Deep thesis building on prediction markets. Researches, scores, and recommends �
 
 - `polymarket` — Market interaction and bet placement
 - `polymarket-deep-research` — Deep thesis building and market comparison
-- `gigabrain-intel` — Cross-market context and analysis
+- `brain` — Cross-market context and analysis

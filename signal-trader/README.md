@@ -31,11 +31,11 @@ Scans for high-impact alpha signals, cross-references with Brain API analysis, t
 
 ## Prerequisites
 
-- A Gigabrain SuperAgent (daemon)
+- A Gigabrain SuperAgent
 - USDC funded on HyperLiquid
 - Telegram bot token (for notifications)
 
 ## Required Skills
 
 - `hyperliquid` — Trade execution and account management
-- `gigabrain-intel` — Signal scanning and trade analysis
+- `brain` — Signal scanning and trade analysis

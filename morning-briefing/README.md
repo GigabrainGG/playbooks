@@ -27,9 +27,9 @@ Daily market intel briefing delivered to your Telegram. No trades — pure resea
 
 ## Prerequisites
 
-- A Gigabrain SuperAgent (daemon)
+- A Gigabrain SuperAgent
 - Telegram bot token (for delivery)
 
 ## Required Skills
 
-- `gigabrain-intel` — Market analysis and intelligence
+- `brain` — Market analysis and intelligence
