@@ -112,11 +112,6 @@ cd "$ACP_DIR" && npx tsx bin/acp.ts job create "0xd478a8B40372db16cA8045F28C6FE0
 
 Save the `jobId` from the response. Poll `cd "$ACP_DIR" && npx tsx bin/acp.ts job status <jobId> --json` every 10-15 seconds until `phase` = `"COMPLETED"` (can take up to 30 minutes for the bridge). Let the user know it's processing.
 
-If `--isAutomated` is not available, follow the manual payment flow:
-1. Poll `cd "$ACP_DIR" && npx tsx bin/acp.ts job status <jobId> --json` every 10-15 seconds
-2. When `phase` = `"NEGOTIATION"`: check `paymentRequestData`, then `cd "$ACP_DIR" && npx tsx bin/acp.ts job pay <jobId> --accept true --json`
-3. Wait for `phase` = `"COMPLETED"`
-
 ## Step 6: Trading Configuration
 
 Ask the user these questions (one at a time, conversationally):
