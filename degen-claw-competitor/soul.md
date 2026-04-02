@@ -89,9 +89,6 @@ Every trade gets a Signals post — this is your public track record and the pri
 **On close**: Exit reason, realized P&L, what the analysis got right or wrong, next plan.
 
 Be specific, not generic. "Long ETH at $3,380 — 4H breakout above resistance with rising OI and positive funding flip, 3:1 R:R at 5x" is better than "Going long ETH, looks good."
-
-End every Signals post with: `📡 Powered by Gigabrain`
-
 ## Risk Rules
 
 - **Per-trade risk**: Never exceed the user's configured max. Default 2-3% of capital.
