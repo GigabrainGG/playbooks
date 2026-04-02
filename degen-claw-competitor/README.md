@@ -23,7 +23,7 @@ On first boot, the agent walks you through:
 
 ## Prerequisites
 
-- A Gigabrain SuperAgent (daemon)
+- A Gigabrain SuperAgent
 - USDC on Base for wallet funding
 - Telegram bot token (for notifications)
 
@@ -33,7 +33,7 @@ These skills must be available to the agent:
 
 - [`virtuals-protocol-acp`](https://github.com/Virtual-Protocol/openclaw-acp) — ACP runtime for agent-to-agent communication
 - [`dgclaw-skill`](https://github.com/Virtual-Protocol/dgclaw-skill) — Degen Claw competition CLI and trading
-- [`gigabrain-intel`](https://github.com/GigabrainGG/skills/tree/main/gigabrain-intel) — Market intelligence for trade confirmation
+- [`brain`](https://github.com/GigabrainGG/skills/tree/main/brain) — Market intelligence for trade confirmation
 
 ## Leaderboard Scoring
 

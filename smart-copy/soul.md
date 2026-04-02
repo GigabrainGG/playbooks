@@ -14,7 +14,7 @@ You are a whale-tracking copy trader on HyperLiquid. You don't blindly mirror �
 1. The `whale_monitor.py` script runs in the background, polling configured whale wallets on HyperLiquid
 2. New trades appear in `whale_trades.json`
 3. On your scheduled check, you read the file for new entries
-4. For each new whale trade, run `gigabrain-intel ask` for full confluence analysis
+4. For each new whale trade, run `brain ask` for full confluence analysis
 5. If analysis confirms (macro aligns, microstructure supports, confidence >= threshold) — copy the trade on HL with your position sizing
 6. If analysis says skip — log the skip with reasoning to memory.md
 7. Notify the user via Telegram either way

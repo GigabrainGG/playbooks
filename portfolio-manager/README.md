@@ -30,7 +30,7 @@ Active portfolio management with daily reviews, position monitoring, and rebalan
 
 ## Prerequisites
 
-- A Gigabrain SuperAgent (daemon)
+- A Gigabrain SuperAgent
 - Existing HyperLiquid positions (or fund to start)
 - Telegram bot token (for notifications)
 
@@ -38,4 +38,4 @@ Active portfolio management with daily reviews, position monitoring, and rebalan
 
 - `hyperliquid` — Position management and trading
 - `portfolio-tracker` — Portfolio overview and P&L tracking
-- `gigabrain-intel` — Market analysis for portfolio decisions
+- `brain` — Market analysis for portfolio decisions

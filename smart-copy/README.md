@@ -14,7 +14,7 @@ Monitors whale wallets on HyperLiquid, runs Gigabrain analysis before copying, s
 
 A background script (`scripts/whale_monitor.py`) polls whale wallet positions via the HyperLiquid public API. New trades are written to `whale_trades.json`. The agent checks this file on a schedule, and for each new whale trade:
 
-1. Runs `gigabrain-intel ask` for confluence check (macro regime + microstructure + price action)
+1. Runs `brain ask` for confluence check (macro regime + microstructure + price action)
 2. If confidence >= your threshold and macro aligns → copies on HL with your position sizing
 3. If not → logs the skip with full reasoning
 
@@ -28,7 +28,7 @@ A background script (`scripts/whale_monitor.py`) polls whale wallet positions vi
 
 ## Prerequisites
 
-- A Gigabrain SuperAgent (daemon)
+- A Gigabrain SuperAgent
 - USDC funded on HyperLiquid
 - Telegram bot token (for notifications)
 - Whale wallet addresses to track
@@ -36,4 +36,4 @@ A background script (`scripts/whale_monitor.py`) polls whale wallet positions vi
 ## Required Skills
 
 - `hyperliquid` — Trade execution and account management
-- `gigabrain-intel` — Market analysis for trade confirmation
+- `brain` — Market analysis for trade confirmation

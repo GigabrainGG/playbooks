@@ -36,11 +36,11 @@ Regime-aware accumulation. Buys heavy on dips in risk-on, skips when macro is ov
 
 ## Prerequisites
 
-- A Gigabrain SuperAgent (daemon)
+- A Gigabrain SuperAgent
 - USDC funded on HyperLiquid
 - Telegram bot token (for notifications)
 
 ## Required Skills
 
 - `hyperliquid` — Trade execution
-- `gigabrain-intel` — Macro regime assessment
+- `brain` — Macro regime assessment

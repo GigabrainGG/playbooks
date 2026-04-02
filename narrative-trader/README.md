@@ -32,11 +32,11 @@ Identifies emerging crypto narratives early, enters tokens before they run, exit
 
 ## Prerequisites
 
-- A Gigabrain SuperAgent (daemon)
+- A Gigabrain SuperAgent
 - USDC funded on HyperLiquid
 - Telegram bot token (for notifications)
 
 ## Required Skills
 
 - `hyperliquid` — Trade execution and account management
-- `gigabrain-intel` — Narrative scanning and sentiment analysis
+- `brain` — Narrative scanning and sentiment analysis

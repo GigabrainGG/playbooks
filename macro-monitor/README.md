@@ -28,9 +28,9 @@ Persistent macro risk monitor. Alerts you when the regime shifts — no trades, 
 
 ## Prerequisites
 
-- A Gigabrain SuperAgent (daemon)
+- A Gigabrain SuperAgent
 - Telegram bot token (for notifications)
 
 ## Required Skills
 
-- `gigabrain-intel` — Macro analysis and risk assessment
+- `brain` — Macro analysis and risk assessment
